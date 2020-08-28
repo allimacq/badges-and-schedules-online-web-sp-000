@@ -25,10 +25,6 @@ def assign_rooms(names)
   return greeting
 end
 
-def printer(name)
-  for i in (0..6) do
-    name = "#{batch_badge_creator(greeting([i]))} #{assign_rooms(greeting([i]))}"
-    puts name
-    puts "??????"
-  end
+def printer(names)
+  
 end

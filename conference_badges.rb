@@ -26,5 +26,7 @@ def assign_rooms(names)
 end
 
 def printer(names)
-  for i in (0..6) 
+  for i in (0..6) do
+    puts 
+  end
 end

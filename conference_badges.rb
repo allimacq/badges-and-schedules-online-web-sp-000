@@ -22,4 +22,5 @@ end
 def assign_rooms(name)
   greeting = Array.new()
   name.each_with_index {|name, room| greeting[room] = "Hello, #{name}! You'll be assigned to room #{room + 1}!"  }
+  return greeting
 end

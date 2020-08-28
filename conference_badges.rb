@@ -19,6 +19,6 @@ def batch_badge_creator(names)
   return greeting
 end
 
-def assign_rooms(name, room)
+def assign_rooms(name)
   puts "test"
 end

@@ -28,6 +28,6 @@ end
 def printer(names)
   batch_badge_creator(names).each_index do |i|
     puts batch_badge_creator(names[i])
-    puts assign_rooms[i]
+    puts assign_rooms(names[i])
   end
 end

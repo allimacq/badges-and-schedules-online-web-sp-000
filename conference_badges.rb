@@ -5,5 +5,6 @@ end
 
 def batch_badge_creator(names)
   names.each do |x|
-    greeting = Array.new(names){|x| "Hello, my name is #{x}"}
+    greeting = Array.new(names){|x| return "Hello, my name is #{x}"}
+  end
 end

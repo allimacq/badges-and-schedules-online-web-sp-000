@@ -24,3 +24,8 @@ def assign_rooms(name)
   name.each_with_index {|name, room| greeting[room] = "Hello, #{name}! You'll be assigned to room #{room + 1}!"  }
   return greeting
 end
+
+def printer(names)
+  print batch_badge_creator
+  print assign_rooms
+end

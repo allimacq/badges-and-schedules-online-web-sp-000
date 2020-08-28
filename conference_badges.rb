@@ -27,7 +27,7 @@ end
 
 def printer(names)
   for i in (0..6) do
-    p batch_badge_creator[i]
-    p assign_rooms[i]
+    p batch_badge_creator(names([i]))
+    p assign_rooms(names([i]))
   end
 end

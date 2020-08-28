@@ -28,5 +28,6 @@ end
 def printer(name)
   for i in (0..6) do
     name = "#{batch_badge_creator(greeting([i]))} #{assign_rooms(greeting([i]))}"
+    puts name
   end
 end

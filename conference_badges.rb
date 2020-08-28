@@ -20,5 +20,5 @@ def batch_badge_creator(names)
 end
 
 def assign_rooms(name, room)
-  for i in (1..7)
+  name.each_with_index(room) do
 end

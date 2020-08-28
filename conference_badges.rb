@@ -27,5 +27,8 @@ end
 
 def printer(names)
   batch_badge_creator.each_index do |i|
+    puts batch_badge_creator[i]
+    puts assign_rooms[i]
+  end
     
 end

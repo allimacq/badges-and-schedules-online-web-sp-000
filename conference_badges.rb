@@ -27,6 +27,6 @@ end
 
 def printer(names)
   for i in (0..6) do
-    puts 
+    puts batch_badge_creator[i]
   end
 end

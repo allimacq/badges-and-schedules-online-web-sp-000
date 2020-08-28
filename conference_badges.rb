@@ -32,5 +32,4 @@ def printer(names)
    puts badges[i]
    puts assignment[i]
  end
- 
 end

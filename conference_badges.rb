@@ -26,5 +26,6 @@ def assign_rooms(names)
 end
 
 def printer(names)
-  
+  batch_badge_creator.each_index do |i|
+    
 end
